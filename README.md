@@ -1,15 +1,16 @@
 # Customer Churn Prediction
 
 ## 📊 Overview
-This project aims to predict customer churn using machine learning techniques.
+This project aims to predict customer churn using machine learning models to identify customers at risk of leaving.
 
-## 🧠 Problem
-Customer churn represents a critical business challenge. The goal is to identify customers at risk of leaving.
+## 🎯 Business Problem
+Customer churn directly impacts revenue. Identifying high-risk customers allows companies to take proactive retention actions.
 
 ## ⚙️ Approach
 - Data cleaning and preprocessing  
 - Feature engineering  
 - Model training and evaluation  
+- Hyperparameter tuning  
 
 ## 🤖 Models Used
 - Logistic Regression  
@@ -17,13 +18,16 @@ Customer churn represents a critical business challenge. The goal is to identify
 - Gradient Boosting  
 
 ## 📈 Results
+- Best Model: Gradient Boosting  
 - AUC: 0.91  
 - F1 Score: 0.70  
 
-The Gradient Boosting model achieved the best performance.
+## 💡 Key Insights
+- Contract type and payment method strongly influence churn  
+- Customers with higher monthly charges show higher churn risk  
 
-## 💡 Business Insight
-The model helps identify high-risk customers, enabling targeted retention strategies.
+## 🚀 Business Impact
+The model enables companies to identify high-risk customers and design targeted retention strategies.
 
 ## 🛠️ Tools
 Python, Pandas, Scikit-learn, Matplotlib
