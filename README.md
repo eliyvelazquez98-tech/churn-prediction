@@ -20,7 +20,10 @@ Customer churn directly impacts revenue. Identifying high-risk customers allows 
 ## 📈 Results
 - Best Model: Gradient Boosting  
 - AUC: 0.91  
-- F1 Score: 0.70  
+- F1 Score: 0.70
+### Curva ROC del modelo de predicción de churn
+
+![ROC Curve](curve roc.png)
 
 ## 💡 Key Insights
 - Contract type and payment method strongly influence churn  
