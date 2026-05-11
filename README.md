@@ -1,3 +1,4 @@
+
 # Customer Churn Prediction
 
 ## 📊 Overview
@@ -23,7 +24,7 @@ Customer churn directly impacts revenue. Identifying high-risk customers allows 
 - F1 Score: 0.70
 ### Curva ROC del modelo de predicción de churn
 
-![ROC Curve](curve roc.png)
+<img width="293" height="226" alt="curve roc" src="https://github.com/user-attachments/assets/ab90239c-8acc-4c91-87af-25fd51234efb" />
 
 ## 💡 Key Insights
 - Contract type and payment method strongly influence churn  
